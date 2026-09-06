@@ -52,3 +52,13 @@ Activate the virtual environment:
 
 ```bash
 source venv/bin/activate 
+```
+
+### Day 2
+
+- Added PDF document ingestion using PyPDFLoader
+- Added PDF file validation
+- Implemented recursive text chunking
+- Added configurable chunk size and overlap
+- Preserved document metadata for future source citations
+- Tested document loading and chunk generation
