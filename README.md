@@ -62,3 +62,12 @@ source venv/bin/activate
 - Added configurable chunk size and overlap
 - Preserved document metadata for future source citations
 - Tested document loading and chunk generation
+
+### Day 3
+
+- Added OpenAI embeddings for document chunks
+- Implemented ChromaDB vector storage
+- Added persistent local vector database
+- Implemented semantic similarity search
+- Added environment variable support for API keys
+- Tested end-to-end vector retrieval
