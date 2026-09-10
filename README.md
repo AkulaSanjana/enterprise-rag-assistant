@@ -71,3 +71,12 @@ source venv/bin/activate
 - Implemented semantic similarity search
 - Added environment variable support for API keys
 - Tested end-to-end vector retrieval
+
+### Day 4
+
+- Built the end-to-end RAG question-answering pipeline
+- Connected semantic retrieval to an OpenAI chat model
+- Added context-grounded answer generation
+- Added fallback behavior when information is missing
+- Added basic source metadata to generated responses
+- Tested retrieval and generation using enterprise policy questions
