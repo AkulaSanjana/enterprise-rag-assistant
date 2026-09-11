@@ -80,3 +80,11 @@ source venv/bin/activate
 - Added fallback behavior when information is missing
 - Added basic source metadata to generated responses
 - Tested retrieval and generation using enterprise policy questions
+
+### Day 5
+
+- Added FastAPI chat endpoint for RAG queries
+- Connected semantic retrieval to API requests
+- Added structured request validation using Pydantic
+- Returned generated answers with source metadata
+- Tested the RAG system through Swagger UI
